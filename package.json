@@ -27,9 +27,9 @@
     "nsp": "^2.1.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/journeyz/volunteer_matching_api.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "volunteer_matching_api"
 }
