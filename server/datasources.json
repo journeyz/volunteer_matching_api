@@ -8,9 +8,9 @@
     "port": 27017,
     "url": "",
     "database": "volunteer_matching_api_development",
-    "name": "mongoDs",
     "username": "${MONGO_USER}",
     "password": "${MONGO_PASS}",
+    "name": "mongoDs",
     "connector": "mongodb"
   }
 }
