@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "volunteer_matching_api_development",
+    "name": "mongoDs",
+    "username": "${MONGO_USER}",
+    "password": "${MONGO_PASS}",
+    "connector": "mongodb"
   }
 }
