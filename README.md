@@ -12,7 +12,7 @@
         1. Volunteers should belongs to one or more organizations.
         1. An organization manager can create/modify/delete members without email confirmation.
     1. Volunteer matching
-        1. A client can create/modify/delete requests which he/she wants be helped by volunteers.
+        1. A client can create/modify/delete requests which he/she needs help from volunteers.
         1. Those requests should specify one or more organizations.
         1. Organization managers can make requests viewable from their members.
         1. Members can apply for the open requests.
