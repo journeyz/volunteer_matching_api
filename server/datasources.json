@@ -1,0 +1,35 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDs": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "volunteer_matching_api_development",
+    "username": "${MONGO_USER}",
+    "password": "${MONGO_PASS}",
+    "name": "mongoDs",
+    "connector": "mongodb"
+  },
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "email@address.com",
+          "pass": "password"
+        }
+      }
+    ]
+  }
+}
